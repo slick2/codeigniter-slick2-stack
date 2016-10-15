@@ -41,6 +41,16 @@ abstract class MY_Controller extends CI_Controller {
 		$this->sections = $sections;
 	}
 
+	public function setBaseLayout($template_name)
+	{
+		$this->baseLayout = $template_name;
+	}
+
+	public function getBaseLayout()
+	{
+		return $this->baseLayout;
+	}
+
 	public function render($sections = array(), $template_name = null, $return = false)
 	{
 		if ($this->input->is_ajax_request())

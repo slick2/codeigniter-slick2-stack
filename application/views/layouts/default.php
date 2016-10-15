@@ -44,25 +44,19 @@
 		<?php if (ENVIRONMENT == 'production') : ?>
 
 		<?php endif; ?>
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="<?= site_url(); ?>components/html5shiv/dist/html5shiv.js"></script>
+		  <script src="<?= site_url(); ?>components/respond/dest/respond.min.js"></script>
+		<![endif]-->
 
 
-        <!-- Just for debugging purposes. Don't actually copy this line! -->
-        <!--[if lt IE 9]><script src="<?= site_url(); ?>/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <style type="text/css" media="screen">
-            body.has-header {
-                padding-top: 60px !important;
-            }
-        </style>
     </head>
 
-    <body class="has-header">
-		<?php if (isset($this->authInfo)) : ?>
+    <body>
+		
+		<?php if (!empty($this->authInfo)) : ?>
 			<?= $this->load->view('partials/headers/auth', array('authInfo' => $authInfo), true) ?>
 		<?php else : ?>
 			<?= $this->load->view('partials/headers/default', [], true) ?>
@@ -79,7 +73,9 @@
 
             <footer>
 				<div class="row">
-                &copy; <?= date('Y') ?>. <?= $this->config->item('site_main_title') ?>. All Rights Reserved.
+					<div class="col-lg-12"
+						&copy; <?= date('Y') ?>. <?= $this->config->item('site_main_title') ?>. All Rights Reserved.
+				</div>
 				</div>
             </footer>
 
