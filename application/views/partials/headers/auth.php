@@ -25,8 +25,6 @@
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">Billing</a></li>
                         <li><a href="<?= site_url('auth/logout') ?>"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                     </ul>
                 </li>

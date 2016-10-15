@@ -11,7 +11,8 @@
 
         <!-- Bootstrap core CSS -->
         <link href="<?= site_url(); ?>components/bootswatch-dist/css/bootstrap.min.css" rel="stylesheet">
-
+		<link href="<?= site_url(); ?>assets/css/custom.css" rel="stylesheet" media="screen">
+		
 		<script src="<?= site_url(); ?>components/jquery/dist/jquery.min.js"></script>
 		
         <script type="text/javascript" charset="utf-8">
@@ -63,8 +64,6 @@
 		<?php endif; ?>
         <div class="container">
 
-
-
 			<?= $this->load->view('partials/session-flash', [], true) ?>
 
 
@@ -73,9 +72,9 @@
 
             <footer>
 				<div class="row">
-					<div class="col-lg-12"
+					<div class="col-lg-12">
 						&copy; <?= date('Y') ?>. <?= $this->config->item('site_main_title') ?>. All Rights Reserved.
-				</div>
+					</div>
 				</div>
             </footer>
 

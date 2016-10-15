@@ -63,8 +63,12 @@ class Auth extends MY_Controller {
 			if ($this->ion_auth->login($this->input->post('identity'), $this->input->post('password'), $remember))
 			{
 				//if the login is successful
-				//redirect them back to the home page
+				
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
+				if($this->ion_auth->is_admin($this->ion_auth->get_user_id())){
+					redirect('auth');
+				}
+				//redirect them back to the home page				
 				redirect('/', 'refresh');
 			}
 			else
@@ -808,10 +812,13 @@ class Auth extends MY_Controller {
 
 		$this->viewdata = (empty($data)) ? $this->data : $data;
 
-		$view_html = $this->load->view($view, $this->viewdata, $returnhtml);
+				
+		/** adjusted **/
+		$data = array();		
+		$data['content'] = $this->load->view($view, $this->viewdata, TRUE);
+		$this->render($data);
 
-		if ($returnhtml)
-			return $view_html; //This will return html on 3rd argument being true
+		
 	}
 
 }
