@@ -1,5 +1,5 @@
 <?php
-
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class MigrateCli extends CI_Controller
 {
@@ -16,6 +16,7 @@ class MigrateCli extends CI_Controller
                         show_error($this->migration->error_string());
                 }else{
                     echo 'Migration Version: '.$this->migration->current();
+                    echo PHP_EOL;
 
                 }
         }
@@ -27,7 +28,7 @@ class MigrateCli extends CI_Controller
 
         public function rollback($version=0){
             echo $this->migration->version($version);
-
+            echo PHP_EOL;
         }
 
 }

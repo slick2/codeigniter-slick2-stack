@@ -79,6 +79,11 @@ class Migration_Install_ion_auth extends CI_Migration {
 				'constraint' => '40',
 				'null' => TRUE
 			),
+			'verification_code' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '40',
+				'null' => TRUE
+			),
 			'forgotten_password_code' => array(
 				'type' => 'VARCHAR',
 				'constraint' => '40',
@@ -112,6 +117,12 @@ class Migration_Install_ion_auth extends CI_Migration {
 				'unsigned' => TRUE,
 				'null' => TRUE
 			),
+			'status' => array(
+				'type' => 'TINYINT',
+				'constraint' => '2',
+				'unsigned' => TRUE,
+				'null' => TRUE
+			),
 			'first_name' => array(
 				'type' => 'VARCHAR',
 				'constraint' => '50',
@@ -131,6 +142,16 @@ class Migration_Install_ion_auth extends CI_Migration {
 				'type' => 'VARCHAR',
 				'constraint' => '20',
 				'null' => TRUE
+			),
+			'referral_code' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '20',
+				'null' => TRUE				
+			),
+			'referred_by' => array(
+				'type'=> 'INT',
+				'constraint'=> '11',
+				'null'=> TRUE				
 			)
 
 		));
@@ -150,6 +171,7 @@ class Migration_Install_ion_auth extends CI_Migration {
 			'created_on' => '1268889823',
 			'last_login' => '1268889823',
 			'active' => '1',
+			'status'=>1,
 			'first_name' => 'Admin',
 			'last_name' => 'istrator',
 			'company' => 'ADMIN',
