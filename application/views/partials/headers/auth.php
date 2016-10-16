@@ -1,7 +1,8 @@
 <div class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand">Slick2</a>
+			
+			<a href="<?php echo site_url();?>" class="navbar-brand">Slick2</a>
 			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -12,7 +13,11 @@
 		<div class="navbar-collapse collapse" id="navbar-main">
 			<ul class="nav navbar-nav">
 				<li>
-					<a href="#">Dashboard</a>
+					<?php if($this->ion_auth->is_admin()):?>
+					<a href="/auth">Dashboard</a>
+					<?php else:?>
+					<a href="/main">Dashboard</a>
+					<?php endif;?>
 				</li>
 
 			</ul>
