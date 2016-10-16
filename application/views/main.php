@@ -2,7 +2,7 @@
 	<div class="col-md-12">
 		<h1>Members Demo</h1>
 		<p>
-			This is the demo site of the simple Members Script, this is use for starter prototype for clients.			
+			This is the demo site of the simple Members Script.
 		</p>
 		<h3>Login and password</h3>
 		<p>Username: admin@admin.com<br />

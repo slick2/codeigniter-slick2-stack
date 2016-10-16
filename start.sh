@@ -2,8 +2,15 @@
 
 echo "Install slick2-stack, be sure you have comoser and bower installed"
 echo "Installing codeigniter..."
-composer update
+# We need to check first if there is composer
+composer=`which composer`
+if [ -f  $composer ]
+	composer update
+else
+	exit
+fi
 echo "Installing components..."
+# We need to check bower installation
 bower update
 echo "Create the database"
 echo -n "Enter database name >"
