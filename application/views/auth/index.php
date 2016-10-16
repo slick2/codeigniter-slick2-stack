@@ -3,7 +3,7 @@
 
 <div id="infoMessage"><?php echo $message;?></div>
 
-<table cellpadding=0 cellspacing=10 class="table table-condensed">
+<table cellpadding=0 cellspacing=10 class="table table-striped table-hover">
 	<tr>
 		<th><?php echo lang('index_fname_th');?></th>
 		<th><?php echo lang('index_lname_th');?></th>

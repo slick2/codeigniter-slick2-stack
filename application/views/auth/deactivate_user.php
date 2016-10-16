@@ -1,6 +1,6 @@
 <h1><?php echo lang('deactivate_heading');?></h1>
 <p><?php echo sprintf(lang('deactivate_subheading'), $user->username);?></p>
-
+<div class="well col-md-6">
 <?php echo form_open("auth/deactivate/".$user->id);?>
 
   <p>
@@ -13,6 +13,7 @@
   <?php echo form_hidden($csrf); ?>
   <?php echo form_hidden(array('id'=>$user->id)); ?>
 
-  <p><?php echo form_submit('submit', lang('deactivate_submit_btn'));?></p>
+  <p><?php echo form_submit('submit', lang('deactivate_submit_btn'), array('class'=>'btn btn-primary'));?></p>
 
 <?php echo form_close();?>
+</div>
