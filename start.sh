@@ -14,5 +14,7 @@ echo -n "Enter password"
 read pass
 # TODO: if the password is blank we should not prompt password
 mysql -u $username -p $pass  -e "create database ${database}"; 
+echo "Running migration file"
 php public/index.php cli/MigrateCli
+echo "Installation done"
 
