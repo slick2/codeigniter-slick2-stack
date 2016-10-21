@@ -1,4 +1,5 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Migration_Install_ion_auth extends CI_Migration {
 
@@ -146,14 +147,13 @@ class Migration_Install_ion_auth extends CI_Migration {
 			'referral_code' => array(
 				'type' => 'VARCHAR',
 				'constraint' => '20',
-				'null' => TRUE				
+				'null' => TRUE
 			),
 			'referred_by' => array(
-				'type'=> 'INT',
-				'constraint'=> '11',
-				'null'=> TRUE				
+				'type' => 'INT',
+				'constraint' => '11',
+				'null' => TRUE
 			)
-
 		));
 		$this->dbforge->add_key('id', TRUE);
 		$this->dbforge->create_table('users');
@@ -171,7 +171,7 @@ class Migration_Install_ion_auth extends CI_Migration {
 			'created_on' => '1268889823',
 			'last_login' => '1268889823',
 			'active' => '1',
-			'status'=>1,
+			'status' => 1,
 			'first_name' => 'Admin',
 			'last_name' => 'istrator',
 			'company' => 'ADMIN',
@@ -250,7 +250,6 @@ class Migration_Install_ion_auth extends CI_Migration {
 		));
 		$this->dbforge->add_key('id', TRUE);
 		$this->dbforge->create_table('login_attempts');
-
 	}
 
 	public function down()
@@ -260,4 +259,5 @@ class Migration_Install_ion_auth extends CI_Migration {
 		$this->dbforge->drop_table('users_groups', TRUE);
 		$this->dbforge->drop_table('login_attempts', TRUE);
 	}
+
 }
