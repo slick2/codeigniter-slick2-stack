@@ -30,6 +30,7 @@
                     </a>
 
                     <ul class="dropdown-menu">
+						<li><a href="<?= site_url('auth/edit_user/'.$authInfo['id'])?>">Account</a></li>
                         <li><a href="<?= site_url('auth/logout') ?>"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                     </ul>
                 </li>
