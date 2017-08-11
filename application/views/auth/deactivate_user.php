@@ -1,4 +1,4 @@
-<h1><?php echo lang('deactivate_heading');?></h1>
+<h3><?php echo lang('deactivate_heading');?></h3>
 <p><?php echo sprintf(lang('deactivate_subheading'), $user->username);?></p>
 <div class="well col-md-6">
 <?php echo form_open("auth/deactivate/".$user->id);?>

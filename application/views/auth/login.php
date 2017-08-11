@@ -1,11 +1,10 @@
 <?php if (validation_errors()): ?>
-	<br />
 	<div class="alert alert-info alert-dismissible fade in" role="alert">                
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		<?php echo validation_errors(); ?>
 	</div>
 <?php endif; ?>
-<h1><?php echo lang('login_heading'); ?></h1>
+<h3><?php echo lang('login_heading'); ?></h3>
 <p><?php echo lang('login_subheading'); ?></p>
 
 <div class="row">

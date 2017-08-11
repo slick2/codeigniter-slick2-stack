@@ -1,4 +1,4 @@
-<h1><?php echo lang('register_user_heading');?></h1>
+<h3><?php echo lang('register_user_heading');?></h3>
 <p><?php echo lang('register_user_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>
