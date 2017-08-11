@@ -12,4 +12,4 @@ vendor/
 composer.phar
 application/config/database.php
 application/logs/
-public/components
+public_html/components

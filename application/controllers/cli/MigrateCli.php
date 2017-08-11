@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+if ( PHP_SAPI !== 'cli' ) exit('No web access allowed');
+
 class MigrateCli extends CI_Controller
 {
         public function __construct(){
