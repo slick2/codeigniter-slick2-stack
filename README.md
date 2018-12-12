@@ -24,15 +24,15 @@ codeigniter/
 
 ## Requirements
 
-* PHP 5.3.7 or later
+* PHP 5.6 or later
 * `composer` command (See [Composer Installation](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx))
 * Git
-* Bower
+* Yarn
 
 ## How To Use
 
 ### Install the package
 ```
-$ ./install.sh
+$ ./start.sh
 ```
 
