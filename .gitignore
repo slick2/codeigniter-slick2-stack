@@ -1,6 +1,9 @@
 nbproject
 ._*
 .~lock.*
+yarn.lock
+composer.lock
+package.lock
 .buildpath
 .DS_Store
 .idea

@@ -33,6 +33,6 @@ codeigniter/
 
 ### Install the package
 ```
-$ ./start.sh
+$ ./install.sh
 ```
 
