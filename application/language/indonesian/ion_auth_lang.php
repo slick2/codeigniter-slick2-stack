@@ -47,6 +47,7 @@ $lang['deactivate_successful']						= 'Akun Telah Dinonaktifkan';
 $lang['deactivate_unsuccessful']					= 'Tidak Dapat Menonaktifkan Akun';
 $lang['activation_email_successful']			    = 'Email untuk Aktivasi Telah Dikirim. Silahkan cek inbox atau spam';
 $lang['activation_email_unsuccessful']		        = 'Tidak Dapat Mengirimkan Email Aktivasi';
+$lang['deactivate_current_user_unsuccessful']		= 'Anda tidak dapat Nonaktifkan akun anda sendiri.';
 
 // Login / Logout
 $lang['login_successful']							= 'Log In Berhasil';
@@ -83,7 +84,3 @@ $lang['email_forgot_password_heading']				= 'Setel Ulang Kata Sandi untuk %s';
 $lang['email_forgot_password_subheading']			= 'Silahkan klik tautan berikut untuk %s.';
 $lang['email_forgot_password_link']					= 'Setel Ulang Kata Sandi';
 
-// New Password Email
-$lang['email_new_password_subject']					= 'Kata Sandi Baru';
-$lang['email_new_password_heading']					= 'Kata Sandi Baru Untuk %s';
-$lang['email_new_password_subheading']			    = 'Kata Sandi Telah Diubah Ke: %s';

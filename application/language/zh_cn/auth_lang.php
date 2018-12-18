@@ -141,6 +141,7 @@ $lang['forgot_password_validation_email_label']  = '邮箱地址';
 $lang['forgot_password_username_identity_label'] = '用户名';
 $lang['forgot_password_email_identity_label']    = '邮箱';
 $lang['forgot_password_email_not_found']         = '无此邮箱的记录.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = '修改密码';
@@ -160,6 +161,3 @@ $lang['email_forgot_password_heading']    = '重置 %s 的密码';
 $lang['email_forgot_password_subheading'] = '请点击连接跳转至 %s.';
 $lang['email_forgot_password_link']       = '重置您的密码';
 
-// New Password Email
-$lang['email_new_password_heading']    = '%s 的新密码';
-$lang['email_new_password_subheading'] = '您的密码已经重置为: %s';

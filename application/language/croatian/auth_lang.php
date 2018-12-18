@@ -137,6 +137,7 @@ $lang['forgot_password_validation_email_label']  = 'Email';
 $lang['forgot_password_username_identity_label'] = 'Korisničko ime';
 $lang['forgot_password_email_identity_label']    = 'Email';
 $lang['forgot_password_email_not_found']         = 'No record of that email address.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Promjena lozinke';
@@ -156,7 +157,4 @@ $lang['email_forgot_password_heading']    = 'Poništi lozinku za %s';
 $lang['email_forgot_password_subheading'] = 'Klikni ovaj link za %s.';
 $lang['email_forgot_password_link']       = 'Poništi lozinku';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Nova lozinka za %s';
-$lang['email_new_password_subheading'] = 'Vaša lozinka je poništena: %s';
 

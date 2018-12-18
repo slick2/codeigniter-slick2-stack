@@ -40,6 +40,7 @@ $lang['deactivate_successful']         = '帳號已關閉';
 $lang['deactivate_unsuccessful']       = '關閉帳號失敗';
 $lang['activation_email_successful']   = '已寄送啟動帳號電子郵件';
 $lang['activation_email_unsuccessful'] = '啟動帳號電子郵件失敗';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful']   = '登入成功';
@@ -76,7 +77,3 @@ $lang['email_forgot_password_heading']    = '重新啟用密碼 %s';
 $lang['email_forgot_password_subheading'] = '請點此連結 %s';
 $lang['email_forgot_password_link']       = '重新啟動密碼';
 
-// New Password Email
-$lang['email_new_password_subject']    = '新密碼';
-$lang['email_new_password_heading']    = '新密碼 %s';
-$lang['email_new_password_subheading'] = '您的密碼已重置為: %s';

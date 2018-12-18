@@ -33,6 +33,7 @@ $lang['deactivate_successful'] 		  	     = 'Đã khoá tài khoản thành công
 $lang['deactivate_unsuccessful'] 	  	     = 'Không thể bất khoá tài khoản vào lúc này';
 $lang['activation_email_successful'] 	  	 = 'Đã gửi mail kích hoạt thành công';
 $lang['activation_email_unsuccessful']   	 = 'Không thể gửi mail kích hoạt vào lúc này';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	         = 'Đăng nhập thành công';
@@ -69,7 +70,3 @@ $lang['email_forgot_password_heading']    = 'Khôi phục mật khẩu cho %s';
 $lang['email_forgot_password_subheading'] = 'Vui lòng click vào link này để %s.';
 $lang['email_forgot_password_link']       = 'Khôi phục mật khẩu của bạn';
 
-// New Password Email
-$lang['email_new_password_subject']          = 'Mật khẩu mới';
-$lang['email_new_password_heading']    = 'Mật khẩu mới của %s';
-$lang['email_new_password_subheading'] = 'Mật khẩu của bạn đã được đổi thành: %s';

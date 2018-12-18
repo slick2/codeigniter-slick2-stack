@@ -70,9 +70,7 @@ $lang['create_user_validation_fname_label']            = 'Prénom';
 $lang['create_user_validation_lname_label']            = 'Nom';
 $lang['create_user_validation_identity_label']         = 'Identité :';
 $lang['create_user_validation_email_label']            = 'Adresse Email';
-$lang['create_user_validation_phone1_label']           = 'Première partie du numéro de téléphone';
-$lang['create_user_validation_phone2_label']           = 'Seconde partie du numéro de téléphone';
-$lang['create_user_validation_phone3_label']           = 'Troisième partie du numéro de téléphone';
+$lang['create_user_validation_phone_label']            = 'Téléphone';
 $lang['create_user_validation_company_label']          = 'Société';
 $lang['create_user_validation_password_label']         = 'Mot de passe';
 $lang['create_user_validation_password_confirm_label'] = 'Confirmation du mot de passe';
@@ -88,13 +86,11 @@ $lang['edit_user_phone_label']                       = 'Téléphone :';
 $lang['edit_user_password_label']                    = 'Mot de passe (si modifié) :';
 $lang['edit_user_password_confirm_label']            = 'Confirmer le mot de passe :';
 $lang['edit_user_groups_heading']                    = 'Membre du groupe';
-$lang['edit_user_submit_btn']                        = 'Enregistrer les mofifications';
+$lang['edit_user_submit_btn']                        = 'Enregistrer les modifications';
 $lang['edit_user_validation_fname_label']            = 'Prénom';
 $lang['edit_user_validation_lname_label']            = 'Nom';
 $lang['edit_user_validation_email_label']            = 'Adresse email';
-$lang['edit_user_validation_phone1_label']           = 'Première partie du numéro de téléphone';
-$lang['edit_user_validation_phone2_label']           = 'Seconde partie du numéro de téléphone';
-$lang['edit_user_validation_phone3_label']           = 'Troisième partie du numéro de téléphone';
+$lang['edit_user_validation_phone_label']            = 'Téléphone';
 $lang['edit_user_validation_company_label']          = 'Société';
 $lang['edit_user_validation_groups_label']           = 'Groupes';
 $lang['edit_user_validation_password_label']         = 'Mot de passe';
@@ -140,6 +136,7 @@ $lang['forgot_password_validation_email_label']  = 'Adresse Email';
 $lang['forgot_password_username_identity_label'] = 'Nom d\'utilisateur';
 $lang['forgot_password_email_identity_label']    = 'Email';
 $lang['forgot_password_email_not_found']         = 'Cette adresse email n\'est pas enregistrée chez nous.';
+$lang['forgot_password_identity_not_found']      = 'Ce nom d\'utilisateur n\'est pas enregistré chez nous.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Modifier le mot de passe';
@@ -159,7 +156,4 @@ $lang['email_forgot_password_heading']    = 'Changer le mot de passe pour %s';
 $lang['email_forgot_password_subheading'] = 'Veuillez cliquer sur ce lien pour %s';
 $lang['email_forgot_password_link']       = 'Changer votre mot de passe';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Nouveau mot de passe pour %s';
-$lang['email_new_password_subheading'] = 'Votre mot de passe a été changé pour : %s';
 

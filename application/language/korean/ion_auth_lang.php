@@ -37,6 +37,7 @@ $lang['deactivate_successful'] 		  	     = '계정을 비활성화하였습니�
 $lang['deactivate_unsuccessful'] 	  	     = '계정을 비활성화할 수 없습니다';
 $lang['activation_email_successful'] 	  	 = '계정 활성화 이메일을 보냈습니다';
 $lang['activation_email_unsuccessful']   	 = '계정 활성화 이메일을 보날 수 없습니다';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	         = '로그인 하였습니다';
@@ -71,7 +72,3 @@ $lang['email_forgotten_password_subject']    = '잊어버린 비밀번호를 찾
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          = '새 비밀번호를 보내드립니다';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

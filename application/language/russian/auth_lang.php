@@ -141,6 +141,8 @@ $lang['forgot_password_validation_email_label']  = 'Email';
 $lang['forgot_password_username_identity_label'] = 'Логин';
 $lang['forgot_password_email_identity_label']    = 'Email';
 $lang['forgot_password_back']    = 'Вернуться';
+$lang['forgot_password_email_not_found']         = 'No record of that email address.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Изменить пароль';
@@ -160,6 +162,3 @@ $lang['email_forgot_password_heading']    = 'Сбросить пароль дл�
 $lang['email_forgot_password_subheading'] = 'Пожалуста по ссылке для %s.';
 $lang['email_forgot_password_link']       = 'Сбросить пароль';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Новый пароль для %s';
-$lang['email_new_password_subheading'] = 'Пароль был сброшен для: %s';

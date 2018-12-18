@@ -19,7 +19,7 @@
 $lang['account_creation_successful'] 	  	 = 'Account is aangemaakt';
 $lang['account_creation_unsuccessful'] 	 	 = 'Account aanmaken is mislukt';
 $lang['account_creation_duplicate_email'] 	 = 'E-mailadres is al in gebruik of ongeldig';
-$lang['account_creation_duplicate_identity'] 	 = 'Gebruikersnaam is al in gebruik of ongeldig';
+$lang['account_creation_duplicate_identity'] = 'Gebruikersnaam is al in gebruik of ongeldig';
 
 // TODO Please Translate
 $lang['account_creation_missing_default_group'] = 'Standaard groep is niet ingesteld';
@@ -39,6 +39,7 @@ $lang['deactivate_successful'] 		  	 = 'Account is gedeactiveerd';
 $lang['deactivate_unsuccessful'] 	  	 = 'Accound deactiveren is mislukt';
 $lang['activation_email_successful'] 	  	 = 'Activatie e-mail is verzonden';
 $lang['activation_email_unsuccessful']   	 = 'Activatie e-mail verzenden is mislukt';
+$lang['deactivate_current_user_unsuccessful']= 'U kunt uzelf niet deactiveren.';
 
 // Login / Logout
 $lang['login_successful'] 		  	 = 'U bent ingelogd';
@@ -74,10 +75,6 @@ $lang['email_forgotten_password_subject']    = 'Verificatie vergeten wachtwoord'
 $lang['email_forgot_password_heading']    = 'Reset wachtwoord voor %s';
 $lang['email_forgot_password_subheading'] = 'Gelieve op deze link te klikken om %s.';
 $lang['email_forgot_password_link']       = 'Reset uw wachtwoord';
-// New Password Email
-$lang['email_new_password_subject']          = 'Nieuw wachtwoord';
-$lang['email_new_password_heading']    = 'Nieuw wachtwoord voor %s';
-$lang['email_new_password_subheading'] = 'Uw wachtwoord is aangepast naar: %s';
 
 /* End of file ion_auth_lang.php */
 /* Location: ./system/application/language/dutch/ion_auth_lang.php */

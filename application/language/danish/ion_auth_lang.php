@@ -30,6 +30,7 @@ $lang['deactivate_successful'] 					= 'Konto deaktiveret';
 $lang['deactivate_unsuccessful'] 				= 'Det var ikke muligt at deaktivere kontoen';
 $lang['activation_email_successful'] 			= 'Email vedrørende aktivering af konto er afsendt';
 $lang['activation_email_unsuccessful'] 			= 'Det var ikke muligt at sende email vedrørende aktivering af konto';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 // Login / Logout
 $lang['login_successful'] 						= 'Logged ind';
 $lang['login_unsuccessful'] 						= 'Ugyldigt login';
@@ -61,7 +62,3 @@ $lang['email_forgotten_password_subject']    	= 'Verifikation af glemt adgangsko
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          	= 'Nyt kodeord';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

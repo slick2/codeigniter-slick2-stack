@@ -35,6 +35,7 @@ $lang['deactivate_successful']         = '账号已关闭';
 $lang['deactivate_unsuccessful']       = '账号关闭失败';
 $lang['activation_email_successful']   = '已发送激活账号的电子邮件';
 $lang['activation_email_unsuccessful'] = '发送激活账号的电子邮件失败';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful']   = '登录成功';
@@ -69,7 +70,3 @@ $lang['email_forgotten_password_subject'] = '密码重设验证';
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']       = '您的新密码';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

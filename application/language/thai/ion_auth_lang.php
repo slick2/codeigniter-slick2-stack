@@ -41,6 +41,7 @@ $lang['deactivate_successful'] 		  	     = 'บัญชีถูกปิดก
 $lang['deactivate_unsuccessful'] 	  	     = 'ไม่สามารถปิดการใช้งานบัญชี';
 $lang['activation_email_successful'] 	  	 = 'ส่งอีเมล์เปิดใช้งานแล้ว';
 $lang['activation_email_unsuccessful']   	 = 'ไม่สามารถส่งอีเมล์เปิดใช้งานรหัสผ่านได้';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	         = 'เข้าสู่ระบบสำเร็จ';
@@ -77,7 +78,3 @@ $lang['email_forgot_password_heading']    = 'ล้างรหัสผ่า�
 $lang['email_forgot_password_subheading'] = 'กรุณาคลิกลิงค์นี้เพื่อ%s';
 $lang['email_forgot_password_link']       = 'ล้างรหัสผ่าน';
 
-// New Password Email
-$lang['email_new_password_subject']          = 'รหัสผ่านใหม่';
-$lang['email_new_password_heading']    = 'รหัสผ่านใหม่สำหรับ%s';
-$lang['email_new_password_subheading'] = 'รหัสผ่านใหม่ถูกตั้งใหม่เป็น: %s';

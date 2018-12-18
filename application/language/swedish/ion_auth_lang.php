@@ -38,6 +38,7 @@ $lang['deactivate_successful']            = 'Kontot inaktiverades';
 $lang['deactivate_unsuccessful']          = 'Det gick inte att inaktivera kontot';
 $lang['activation_email_successful']      = 'En aktveringslänk har skickats till din e-post';
 $lang['activation_email_unsuccessful']    = 'E-post med aktiveringslänk kunde inte skickas';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful']       = 'Du är nu inloggad';
@@ -74,7 +75,3 @@ $lang['email_forgot_password_heading']    = 'Glömt lösenord för %s';
 $lang['email_forgot_password_subheading'] = 'Klicka denna länk för att %s.';
 $lang['email_forgot_password_link']       = 'återställa ditt lösenord';
 
-// New Password Email
-$lang['email_new_password_subject']     = 'Nytt Lösenord';
-$lang['email_new_password_heading']     = 'Nytt lösenord för %s';
-$lang['email_new_password_subheading']  = 'Ditt lösenord har blivit återställts till: %s';

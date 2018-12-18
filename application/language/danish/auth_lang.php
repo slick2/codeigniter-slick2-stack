@@ -147,6 +147,7 @@ $lang['forgot_password_validation_email_label']  = 'Email-adresse';
 $lang['forgot_password_username_identity_label'] = 'Brugernavn';
 $lang['forgot_password_email_identity_label']    = 'Email';
 $lang['forgot_password_email_not_found']         = 'No record of that email address.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Skift Kodeord';
@@ -166,7 +167,4 @@ $lang['email_forgot_password_heading']    = 'Nulstil kodeordet for %s';
 $lang['email_forgot_password_subheading'] = 'Tryk på dette link for at %s.';
 $lang['email_forgot_password_link']       = 'Nulstil Dit Kodeordet';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Nyt kodeord for %s';
-$lang['email_new_password_subheading'] = 'Dit kodeord er blevet nulstillet til: %s';
 

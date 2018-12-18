@@ -50,6 +50,7 @@ $lang['update_successful'] 		 	 = 'Οι Πληροφορίες του Λογαρ
 $lang['update_unsuccessful'] 		 	 = 'Αδυναμία Ενημέρωσης Πληροφοριών Λογαριασμού';
 $lang['delete_successful'] 		 	 = 'Ο Χρήστης Διαγράφηκε';
 $lang['delete_unsuccessful'] 		 	 = 'Αδυναμία Διαγραφής Χρήστη';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Groups
 $lang['group_creation_successful']  = 'Group created Successfully';
@@ -71,7 +72,3 @@ $lang['email_forgotten_password_subject']    = 'Forgotten Password Verification'
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          = 'New Password';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

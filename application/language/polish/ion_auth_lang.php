@@ -46,6 +46,7 @@ $lang['deactivate_successful'] 				 = 'Konto zostało deaktywowane';
 $lang['deactivate_unsuccessful'] 			 = 'Nie można deaktywować konta';
 $lang['activation_email_successful'] 		 = 'Na twój adres E-mail został wysłany link aktywacyjny';
 $lang['activation_email_unsuccessful'] 		 = 'Nie można wysłać linku aktywacyjnego';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 					 = 'Użytkownik został pomyślnie zalogowany';
@@ -80,7 +81,3 @@ $lang['email_forgotten_password_subject']    = 'Resetowanie hasła';
 $lang['email_forgot_password_heading']    	 = 'Zresetuj hasło dla %s';
 $lang['email_forgot_password_subheading'] 	 = 'Przejdź do tego adresu aby zresetować swoje hasło %s.';
 $lang['email_forgot_password_link']       	 = 'Resetowanie hasła';
-// New Password Email
-$lang['email_new_password_subject']          = 'Nowe Hasło';
-$lang['email_new_password_heading']    		 = 'Twoje hasło zostało zresetowane!';
-$lang['email_new_password_subheading'] 		 = 'Your password has been reset to: %s';

@@ -36,6 +36,7 @@ $lang['deactivate_successful']              = 'Conta desativada';
 $lang['deactivate_unsuccessful']            = 'Não foi possível desativar a conta';
 $lang['activation_email_successful']        = 'Email de ativação enviado com sucesso';
 $lang['activation_email_unsuccessful']      = 'Não foi possível enviar o email de ativação';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful']                   = 'Sessão iniciada com sucesso';
@@ -72,7 +73,3 @@ $lang['email_forgot_password_heading']    	= 'Redefinido a senha para %s';
 $lang['email_forgot_password_subheading'] 	= 'Por favor, clique neste link para %s.';
 $lang['email_forgot_password_link']       	= 'Redefina sua senha';
 
-// New Password Email
-$lang['email_new_password_subject']         = 'Nova senha';
-$lang['email_new_password_heading']    		= 'Nova senha para %s';
-$lang['email_new_password_subheading'] 		= 'Sua senha foi redefinida para: %s';

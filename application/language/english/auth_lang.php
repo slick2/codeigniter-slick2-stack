@@ -53,7 +53,7 @@ $lang['deactivate_validation_confirm_label'] = 'confirmation';
 $lang['deactivate_validation_user_id_label'] = 'user ID';
 
 // Create User
-$lang['create_user_heading']                           = 'Add User';
+$lang['create_user_heading']                           = 'Create User';
 $lang['create_user_subheading']                        = 'Please enter the user\'s information below.';
 $lang['create_user_fname_label']                       = 'First Name:';
 $lang['create_user_lname_label']                       = 'Last Name:';
@@ -134,6 +134,7 @@ $lang['forgot_password_validation_email_label']  = 'Email Address';
 $lang['forgot_password_identity_label'] = 'Identity';
 $lang['forgot_password_email_identity_label']    = 'Email';
 $lang['forgot_password_email_not_found']         = 'No record of that email address.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Change Password';
@@ -142,25 +143,3 @@ $lang['reset_password_new_password_confirm_label']            = 'Confirm New Pas
 $lang['reset_password_submit_btn']                            = 'Change';
 $lang['reset_password_validation_new_password_label']         = 'New Password';
 $lang['reset_password_validation_new_password_confirm_label'] = 'Confirm New Password';
-
-
-// Register User
-$lang['register_user_heading']                           = 'Register User';
-$lang['register_user_subheading']                        = 'Please enter the user\'s information below.';
-$lang['register_user_fname_label']                       = 'First Name:';
-$lang['register_user_lname_label']                       = 'Last Name:';
-$lang['register_user_company_label']                     = 'Company Name:';
-$lang['register_user_identity_label']                    = 'Identity:';
-$lang['register_user_email_label']                       = 'Email:';
-$lang['register_user_phone_label']                       = 'Phone:';
-$lang['register_user_password_label']                    = 'Password:';
-$lang['register_user_password_confirm_label']            = 'Confirm Password:';
-$lang['register_user_submit_btn']                        = 'Register User';
-$lang['register_user_validation_fname_label']            = 'First Name';
-$lang['register_user_validation_lname_label']            = 'Last Name';
-$lang['register_user_validation_identity_label']         = 'Identity';
-$lang['register_user_validation_email_label']            = 'Email Address';
-$lang['register_user_validation_phone_label']            = 'Phone';
-$lang['register_user_validation_company_label']          = 'Company Name';
-$lang['register_user_validation_password_label']         = 'Password';
-$lang['register_user_validation_password_confirm_label'] = 'Password Confirmation';

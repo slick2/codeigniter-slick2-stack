@@ -39,6 +39,7 @@ $lang['deactivate_successful'] 		  	        = 'Hesap devre dışı bırakıldı'
 $lang['deactivate_unsuccessful'] 	  	        = 'Hesap devre dışı bırakma isteğiniz gerçekleştirilemedi';
 $lang['activation_email_successful'] 	        = 'Hesap etkinleştirme e-postası gönderildi';
 $lang['activation_email_unsuccessful']          = 'Hesap etkinleştirme e-postası gönderilemedi';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	            = 'Giriş başarılı';
@@ -75,7 +76,3 @@ $lang['email_forgot_password_heading']          = '%s için şifre sıfırlama';
 $lang['email_forgot_password_subheading']       = 'Bağlantıya tıklayarak %s.';
 $lang['email_forgot_password_link']             = 'şifrenizi sıfırlayınız';
 
-// New Password Email
-$lang['email_new_password_subject']             = 'Yeni Şifre';
-$lang['email_new_password_heading']             = '%s için yeni şifre';
-$lang['email_new_password_subheading']          = 'Şifreniz %s olarak değiştirildi';

@@ -40,6 +40,7 @@ $lang['deactivate_successful'] 		  	 = 'Deaktyvuota';
 $lang['deactivate_unsuccessful'] 	  	 = 'Neįmanoma deaktyvuoti';
 $lang['activation_email_successful'] 	  	 = 'Išsiųstas pranešimas į el. paštą';
 $lang['activation_email_unsuccessful']   	 = 'Neįmanoma išsiųsti';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	 = 'Sėkminga autorizacija';
@@ -74,7 +75,3 @@ $lang['email_forgotten_password_subject']    = 'Pamiršto slaptažodžio patvirt
 $lang['email_forgot_password_heading']    = 'Iš naujo generuoti %s slaptažodį';
 $lang['email_forgot_password_subheading'] = 'Prašome paspausti nuorodą norėdami %s.';
 $lang['email_forgot_password_link']       = 'Perkrauti slaptažodį';
-// New Password Email
-$lang['email_new_password_subject']          = 'Naujas slaptažodis';
-$lang['email_new_password_heading']    = 'Naujas %s slaptažodis';
-$lang['email_new_password_subheading'] = 'Jums buvo generuotas naujas slaptažodis: %s';

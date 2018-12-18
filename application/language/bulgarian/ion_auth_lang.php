@@ -37,6 +37,7 @@ $lang['deactivate_successful'] 		  	     = 'Регистрацията е деа
 $lang['deactivate_unsuccessful'] 	  	     = 'Неуспешен опит за деактивиране на регистрацията';
 $lang['activation_email_successful'] 	  	 = 'Изпратен е Email за активиране на регистрацията';
 $lang['activation_email_unsuccessful']   	 = 'Неуспешен опит за изпращане на Email за активация';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	         = 'Успешен вход в системата';
@@ -73,7 +74,3 @@ $lang['email_forgotten_password_subject']    = 'Проверка за забра
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          = 'Нова парола';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

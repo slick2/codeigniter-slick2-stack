@@ -35,6 +35,7 @@ $lang['deactivate_successful'] 		  	     = 'Cont dezactivat';
 $lang['deactivate_unsuccessful'] 	  	     = 'Nu am reușit să dezactivez contul';
 $lang['activation_email_successful'] 	  	 = 'Mailul de activare a fost trimis';
 $lang['activation_email_unsuccessful']   	 = 'Nu am reușit să trimit mailul de activare';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	         = 'Conectarea a reușit';
@@ -71,7 +72,3 @@ $lang['email_forgot_password_heading']    	= 'Resetarea parolei pentru %s';
 $lang['email_forgot_password_subheading'] 	= 'Dați clic pe această adresă pentru %s.';
 $lang['email_forgot_password_link']       	= 'Resetarea parolei';
 
-// New Password Email
-$lang['email_new_password_subject']         = 'Parola nouă';
-$lang['email_new_password_heading']    		= 'Parola nouă pentru %s';
-$lang['email_new_password_subheading'] 		= 'Parola a fost resetată: %s';

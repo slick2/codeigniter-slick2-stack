@@ -138,6 +138,7 @@ $lang['forgot_password_validation_email_label']  = 'メールアドレス';
 $lang['forgot_password_username_identity_label'] = 'ユーザー名';
 $lang['forgot_password_email_identity_label']    = 'メールアドレス';
 $lang['forgot_password_email_not_found']         = 'No record of that email address.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'パスワードの変更';
@@ -157,7 +158,4 @@ $lang['email_forgot_password_heading']    = 'パスワードのリセット： %
 $lang['email_forgot_password_subheading'] = 'このリンクをクリックして%s。';
 $lang['email_forgot_password_link']       = 'パスワードをリセットして下さい';
 
-// New Password Email
-$lang['email_new_password_heading']    = '新しいパスワード： %s';
-$lang['email_new_password_subheading'] = 'パスワードをリセットすることができました： %s';
 

@@ -35,6 +35,7 @@ $lang['deactivate_successful']          = 'تم إيقاف حسابك';
 $lang['deactivate_unsuccessful']        = 'لا يمكن إيقاف حسابك';
 $lang['activation_email_successful']    = 'تم إرسال بريد التفعيل';
 $lang['activation_email_unsuccessful']  = 'لا يمكن ارسال بريد التفعيل';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful']             = 'تم تسجيل الدخول بنجاح';
@@ -69,7 +70,3 @@ $lang['email_forgotten_password_subject']    = 'Forgotten Password Verification'
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          = 'New Password';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

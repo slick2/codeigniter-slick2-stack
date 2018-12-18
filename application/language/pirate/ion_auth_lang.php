@@ -32,6 +32,7 @@ $lang['deactivate_successful'] 		  	 	= 'Furner be burned down by the Navy';
 $lang['deactivate_unsuccessful'] 	  	 	= 'Shiver me timbers! Account not Deactivated';
 $lang['activation_email_successful'] 	  	= 'Letter in the Bottle Sent';
 $lang['activation_email_unsuccessful']   	= 'Unable to Send Letter in the Bottle';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	 		= 'Yarr, welcome aboard!';
@@ -66,7 +67,3 @@ $lang['email_forgotten_password_subject']    = 'Forgotten Password Verification'
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          = 'New Password';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

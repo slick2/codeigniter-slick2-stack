@@ -140,6 +140,8 @@ $lang['forgot_password_submit_btn']              = 'Eingabe';
 $lang['forgot_password_validation_email_label']  = 'Email';
 $lang['forgot_password_username_identity_label'] = 'Benutzername';
 $lang['forgot_password_email_identity_label']    = 'Email';
+$lang['forgot_password_email_not_found']         = 'No record of that email address.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 
 // Reset Password
@@ -160,6 +162,3 @@ $lang['email_forgot_password_heading']    = 'Kennwort für %s zurücksetzen';
 $lang['email_forgot_password_subheading'] = 'Bitte drücken Sie diese Link um zu %s.';
 $lang['email_forgot_password_link']       = 'Ihr Kennwort zurückstellen';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Neues Kennwort für %s';
-$lang['email_new_password_subheading'] = 'Ihr Kennwort wurde af %s zurückgesetzt';

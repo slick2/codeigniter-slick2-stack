@@ -57,7 +57,7 @@ $lang['create_user_heading']                           = 'Gebruiker aanmaken';
 $lang['create_user_subheading']                        = 'Gelieve hieronder de gebruikersinformatie in te vullen.';
 $lang['create_user_fname_label']                       = 'Voornaam:';
 $lang['create_user_lname_label']                       = 'Achternaam:';
-$lang['create_user_identity_label']                    = 'Identity:';
+$lang['create_user_identity_label']                    = 'Identiteit:';
 $lang['create_user_company_label']                     = 'Bedrijfsnaam:';
 $lang['create_user_email_label']                       = 'E-mailadres:';
 $lang['create_user_phone_label']                       = 'Telefoonnummer:';
@@ -138,6 +138,7 @@ $lang['forgot_password_validation_email_label']  = 'E-mailadres';
 $lang['forgot_password_username_identity_label'] = 'Gebruikersnaam';
 $lang['forgot_password_email_identity_label']    = 'E-mail';
 $lang['forgot_password_email_not_found']         = 'Het opgegeven e-mailadres werd niet terug gevonden.';
+$lang['forgot_password_identity_not_found']      = 'De opgegeven identiteit kon niet gevonden worden.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Wachtwoord wijzigen';
@@ -157,7 +158,4 @@ $lang['email_forgot_password_heading']    = 'Wachtwoord resetten voor %s';
 $lang['email_forgot_password_subheading'] = 'Gelieve op deze link te klikken om %s.';
 $lang['email_forgot_password_link']       = 'Reset uw wachtwoord';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Nieuw wachtwoord voor %s';
-$lang['email_new_password_subheading'] = 'Je wachtwoord werd gereset naar: %s';
 

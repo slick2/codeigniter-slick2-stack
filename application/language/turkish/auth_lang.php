@@ -135,6 +135,7 @@ $lang['forgot_password_validation_email_label']  = 'Eposta Adresi';
 $lang['forgot_password_username_identity_label'] = 'Kullanıcı Adı';
 $lang['forgot_password_email_identity_label']    = 'Eposta';
 $lang['forgot_password_email_not_found']         = 'Belirttiğiniz Eposta adresi için bir kayıt bulunamadı.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Şifre Değiştirme';
@@ -154,7 +155,4 @@ $lang['email_forgot_password_heading']    = '%s İçin Şifre Sıfırlama';
 $lang['email_forgot_password_subheading'] = 'Bağlantıya basarak %s.';
 $lang['email_forgot_password_link']       = 'Şifrenizi Sıfırlayınız';
 
-// New Password Email
-$lang['email_new_password_heading']    = '%s İçin Yeni Şifre';
-$lang['email_new_password_subheading'] = 'Şifreniz %s olarak değiştirildi';
 

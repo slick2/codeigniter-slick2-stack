@@ -37,6 +37,7 @@ $lang['deactivate_successful']                   = 'Tili suljettu';
 $lang['deactivate_unsuccessful']                 = 'Tilin sulkeminen epäonnistui';
 $lang['activation_email_successful']             = 'Aktivointiviesti lähetetty';
 $lang['activation_email_unsuccessful']           = 'Aktivointiviestiä ei voitu lähettää';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful']                        = 'Olet nyt kirjautunut sisään!';
@@ -71,8 +72,4 @@ $lang['email_forgotten_password_subject']        = 'Unohtuneen salasanan palautu
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']              = 'Uusi salasana';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';
 

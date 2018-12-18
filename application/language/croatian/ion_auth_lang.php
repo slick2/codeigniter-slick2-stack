@@ -40,6 +40,7 @@ $lang['deactivate_successful'] 		  	     = 'Račun je deaktiviran';
 $lang['deactivate_unsuccessful'] 	  	     = 'De-aktivacija računa noje uspjela';
 $lang['activation_email_successful'] 	  	 = 'Email za aktivaciju je poslan';
 $lang['activation_email_unsuccessful']   	 = 'Slanje mail za aktivaciju nije uspjelo';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	         = 'Uspješno prijavljeni';
@@ -74,7 +75,3 @@ $lang['email_forgotten_password_subject']    = 'Potvrda o zaboravljenoj lozinci'
 $lang['email_forgot_password_heading']    = 'Reset Password for %s';
 $lang['email_forgot_password_subheading'] = 'Please click this link to %s.';
 $lang['email_forgot_password_link']       = 'Reset Your Password';
-// New Password Email
-$lang['email_new_password_subject']          = 'Nova lozinka';
-$lang['email_new_password_heading']    = 'New Password for %s';
-$lang['email_new_password_subheading'] = 'Your password has been reset to: %s';

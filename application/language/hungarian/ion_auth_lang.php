@@ -34,6 +34,7 @@ $lang['deactivate_successful'] 		    	= 'Felhasználói fiók inaktiválva';
 $lang['deactivate_unsuccessful'] 	      = 'Nem lehet a felhasználói fiókot inaktiválni';
 $lang['activation_email_successful'] 	  = 'Aktivációs email elküldve';
 $lang['activation_email_unsuccessful']  = 'Nem lehet elküldeni az aktivációs emailt';
+$lang['deactivate_current_user_unsuccessful']= 'You cannot De-Activate your self.';
 
 // Login / Logout
 $lang['login_successful'] 		  	 			= 'Sikeres bejelentkés';
@@ -70,7 +71,3 @@ $lang['email_forgot_password_heading']    		= 'Új jelszó beállítása %s szá
 $lang['email_forgot_password_subheading'] 		= 'Kattintson a linkre az %s érdekében.';
 $lang['email_forgot_password_link']       		= 'Új jelszó beállítása';
 
-// New Password Email
-$lang['email_new_password_subject']       	= 'Új jelszó';
-$lang['email_new_password_heading']    			= 'új jelszó %s számára';
-$lang['email_new_password_subheading'] 			= 'Jelszava megváltozott a következőre: %s';

@@ -37,6 +37,7 @@ $lang['deactivate_successful'] 		  	 = 'Учетная запись деакти
 $lang['deactivate_unsuccessful'] 	  	 = 'Невозможно деактивировать учетную запись';
 $lang['activation_email_successful'] 	  	 = 'Сообщение об активации отправлено';
 $lang['activation_email_unsuccessful']   	 = 'Сообщение об активации невозможно отправить';
+$lang['deactivate_current_user_unsuccessful']= 'Вы не можете сами деактивировать свою учетную запись';
 
 // Login / Logout
 $lang['login_successful'] 		  	 = 'Авторизация прошла успешно';
@@ -69,7 +70,3 @@ $lang['email_forgotten_password_subject']    = 'Проверка забытог�
 $lang['email_forgot_password_heading']    = 'Сброс пароля для пользователя %s';
 $lang['email_forgot_password_subheading'] = 'Нажмите на ссылку для %s.';
 $lang['email_forgot_password_link']       = 'Восстановления пароля';
-// New Password Email
-$lang['email_new_password_subject']          = 'Новый пароль';
-$lang['email_new_password_heading']    = 'Новый пароль для %s';
-$lang['email_new_password_subheading'] = 'Пароль изменён на: %s';

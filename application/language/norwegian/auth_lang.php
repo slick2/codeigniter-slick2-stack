@@ -143,6 +143,7 @@ $lang['forgot_password_validation_email_label']  = 'Email';
 $lang['forgot_password_username_identity_label'] = 'Brukernavn';
 $lang['forgot_password_email_identity_label']    = 'Email';
 $lang['forgot_password_email_not_found']         = 'Vi fant ikke emailen du oppgav.';
+$lang['forgot_password_identity_not_found']         = 'No record of that username address.';
 
 // Reset Password
 $lang['reset_password_heading']                               = 'Endre passord';
@@ -162,6 +163,3 @@ $lang['email_forgot_password_heading']    = 'Tilbakestill passord for %s';
 $lang['email_forgot_password_subheading'] = 'Klikk denne linken for å %s.';
 $lang['email_forgot_password_link']       = 'Tilbakestill passordet ditt';
 
-// New Password Email
-$lang['email_new_password_heading']    = 'Nytt passord for %s';
-$lang['email_new_password_subheading'] = 'Passordet ditt er endret til: %s';
