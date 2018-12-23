@@ -1,9 +1,11 @@
 <?php
+use Restserver\Libraries\REST_Controller;
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 // This can be removed if you use __autoload() in config.php OR use Modular Extensions
-require APPPATH . '/libraries/REST_Controller.php';
+/** @noinspection PhpIncludeInspection */
+//require APPPATH . '/libraries/REST_Controller.php';
 
 /**
  * Keys Controller
@@ -52,7 +54,7 @@ class Key extends REST_Controller {
         {
             $this->response([
                 'status' => FALSE,
-                'error' => 'Could not save the key'
+                'message' => 'Could not save the key'
             ], REST_Controller::HTTP_INTERNAL_SERVER_ERROR); // INTERNAL_SERVER_ERROR (500) being the HTTP response code
         }
     }
@@ -73,7 +75,7 @@ class Key extends REST_Controller {
             // It doesn't appear the key exists
             $this->response([
                 'status' => FALSE,
-                'error' => 'Invalid API key'
+                'message' => 'Invalid API key'
             ], REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
         }
 
@@ -83,7 +85,7 @@ class Key extends REST_Controller {
         // Respond that the key was destroyed
         $this->response([
             'status' => TRUE,
-            'success' => 'API key was deleted'
+            'message' => 'API key was deleted'
             ], REST_Controller::HTTP_NO_CONTENT); // NO_CONTENT (204) being the HTTP response code
     }
 
@@ -104,7 +106,7 @@ class Key extends REST_Controller {
             // It doesn't appear the key exists
             $this->response([
                 'status' => FALSE,
-                'error' => 'Invalid API key'
+                'message' => 'Invalid API key'
             ], REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
         }
 
@@ -113,14 +115,14 @@ class Key extends REST_Controller {
         {
             $this->response([
                 'status' => TRUE,
-                'success' => 'API key was updated'
+                'message' => 'API key was updated'
             ], REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
         }
         else
         {
             $this->response([
                 'status' => FALSE,
-                'error' => 'Could not update the key level'
+                'message' => 'Could not update the key level'
             ], REST_Controller::HTTP_INTERNAL_SERVER_ERROR); // INTERNAL_SERVER_ERROR (500) being the HTTP response code
         }
     }
@@ -141,7 +143,7 @@ class Key extends REST_Controller {
             // It doesn't appear the key exists
             $this->response([
                 'status' => FALSE,
-                'error' => 'Invalid API key'
+                'message' => 'Invalid API key'
             ], REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
         }
 
@@ -150,14 +152,14 @@ class Key extends REST_Controller {
         {
             $this->response([
                 'status' => TRUE,
-                'success' => 'Key was suspended'
+                'message' => 'Key was suspended'
             ], REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
         }
         else
         {
             $this->response([
                 'status' => FALSE,
-                'error' => 'Could not suspend the user'
+                'message' => 'Could not suspend the user'
             ], REST_Controller::HTTP_INTERNAL_SERVER_ERROR); // INTERNAL_SERVER_ERROR (500) being the HTTP response code
         }
     }
@@ -179,7 +181,7 @@ class Key extends REST_Controller {
             // It doesn't appear the key exists
             $this->response([
                 'status' => FALSE,
-                'error' => 'Invalid API key'
+                'message' => 'Invalid API key'
             ], REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
         }
 
@@ -201,7 +203,7 @@ class Key extends REST_Controller {
         {
             $this->response([
                 'status' => FALSE,
-                'error' => 'Could not save the key'
+                'message' => 'Could not save the key'
             ], REST_Controller::HTTP_INTERNAL_SERVER_ERROR); // INTERNAL_SERVER_ERROR (500) being the HTTP response code
         }
     }
@@ -213,7 +215,7 @@ class Key extends REST_Controller {
         do
         {
             // Generate a random salt
-            $salt = $this->security->get_random_bytes(64);
+            $salt = base_convert(bin2hex($this->security->get_random_bytes(64)), 16, 36);
 
             // If an error occurred, then fall back to the previous method
             if ($salt === FALSE)
@@ -232,7 +234,7 @@ class Key extends REST_Controller {
 
     private function _get_key($key)
     {
-        return $this->db
+        return $this->rest->db
             ->where(config_item('rest_key_column'), $key)
             ->get(config_item('rest_keys_table'))
             ->row();
@@ -240,7 +242,7 @@ class Key extends REST_Controller {
 
     private function _key_exists($key)
     {
-        return $this->db
+        return $this->rest->db
             ->where(config_item('rest_key_column'), $key)
             ->count_all_results(config_item('rest_keys_table')) > 0;
     }
@@ -250,21 +252,21 @@ class Key extends REST_Controller {
         $data[config_item('rest_key_column')] = $key;
         $data['date_created'] = function_exists('now') ? now() : time();
 
-        return $this->db
+        return $this->rest->db
             ->set($data)
             ->insert(config_item('rest_keys_table'));
     }
 
     private function _update_key($key, $data)
     {
-        return $this->db
+        return $this->rest->db
             ->where(config_item('rest_key_column'), $key)
             ->update(config_item('rest_keys_table'), $data);
     }
 
     private function _delete_key($key)
     {
-        return $this->db
+        return $this->rest->db
             ->where(config_item('rest_key_column'), $key)
             ->delete(config_item('rest_keys_table'));
     }
